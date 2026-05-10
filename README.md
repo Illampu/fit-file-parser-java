@@ -16,5 +16,17 @@ Das Programm ist als ausführbare JAR-Datei verfügbar und kann mit Gradle gebau
 1. Lade die JAR-Datei aus den [Releases](https://github.com/illampu/fit-file-parser-java/releases) herunter.
 2. Starte das Programm:
 
-```bash
 java -jar fit-file-parser-java.jar
+
+Gib den Pfad zu deiner FIT-Datei ein, wenn du dazu aufgefordert wirst.
+
+Nach erfolgreicher Verarbeitung findest du die erzeugte JSON-Datei im gleichen Ordner wie die FIT-Datei.
+
+Beispiel:
+
+Eingabe: activity.fit
+
+Ausgabe: activity.json
+
+
+Dieses Projekt steht unter der MIT-Lizenz.
